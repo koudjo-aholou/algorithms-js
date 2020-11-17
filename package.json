@@ -1,0 +1,23 @@
+{
+  "name": "algo",
+  "version": "1.0.0",
+  "description": "introduction to algorithm js",
+  "main": "index.js",
+  "author": "Koudjo AHOLOU <ah.koudjo@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "yarn run jest",
+    "watchmode": "yarn test --watchAll=true"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "babel-jest": "^26.6.3",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
